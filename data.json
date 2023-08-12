@@ -1,45 +1,56 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "Seong Eun Roh"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "노성은",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "seongeunroh@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/seonggg" }
     ]
   },
-
-  "workExperience": [
-    {
-      "id": 0,
-      "name": "커피프린스 1호점",
-      "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
-    },
-    {
-      "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
-    }
-  ],
 
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "하루공감",
+      "description": "딥러닝 모델을 이용한 감정 분석 다이어리 안드로이드 어플리케이션",
+      "repoUrl": "https://github.com/seonggg/Empathy-of-aday",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2022. 05", "2023. 10"],
+      "stack": ["Java", "Python", "AndroidStudio", "Django", "Firebase"]
     },
     {
       "id": 1,
+      "name": "Billi",
+      "description": "사용자들이 소유한 상품/재화를 활용하는 공유경제 시스템인 물건 공유 플랫폼",
+      "repoUrl": "https://github.com/qwerty0911/billi-rantal",
+      "isTeam": true,
+      "period": ["2023. 04", "2023. 05"],
+      "stack": ["Java", "JavaScript", "HTML/CSS", "Oracle", "Amazon S3"]
+    },
+    {
+      "id": 2,
+      "name": "HOW's",
+      "description": "청년을 타겟으로 한 LH 임대 주택과 여신 연계 플랫폼 구축",
+      "repoUrl": "https://github.com/TYD-ShinHanDS-Third/FrontEnd",
+      "isTeam": true,
+      "period": ["2023. 06", "2023. 07"],
+      "stack": ["React.js", "JavaScript", "HTML/CSS"]
+    },
+    {
+      "id": 3,
+      "name": "SiCLOUD",
+      "description": "기존의 WMS 기능에 마케팅솔루션과 매칭서비스를 추가한 물류 클라우드 시스템 프로젝트",
+      "repoUrl": "https://github.com/Sun-in-Cloud/SI-Cloud-Front-end",
+      "isTeam": true,
+      "period": ["2023. 07", "2023. 08"],
+      "stack": ["React.js", "TypeScript", "styled-components"]
+    },
+
+    {
+      "id": 4,
       "name": "첫번째 개인 프로젝트",
       "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
       "webUrl": "https://github.com/sjoleee/",
@@ -68,30 +79,30 @@
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "신한DS 금융 SW 아카데미",
+      "period": ["2023. 02", "2023. 08"],
+      "description": "웹 풀스택 개발자 양성과정. JAVA, SpringBoot, React, DevOps 등 기본기 강화. 팀프로젝트에서 Front-End, Back-End로서 문제 해결 능력 향상"
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "컴퓨터활용능력1급",
+      "date": "2022. 02. 05",
+      "organizer": "대한상공회의소"
     },
     {
       "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
+      "name": "TOEIC 780점",
+      "date": "2022. 11. 27",
       "organizer": "ETS"
+    },
+    {
+      "id": 2,
+      "name": "SQLD(SQL개발자)",
+      "date": "2022. 12. 02",
+      "organizer": "한국데이터산업진흥원 "
     }
   ],
 

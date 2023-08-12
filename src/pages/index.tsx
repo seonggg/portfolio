@@ -19,7 +19,7 @@ import Award from "@/components/Award";
 const Home: NextPage<DataProps> = ({
   resumeTitle,
   information,
-  workExperience,
+  // workExperience,
   project,
   activity,
   education,
@@ -32,7 +32,7 @@ const Home: NextPage<DataProps> = ({
       <ResumeTitle resumeTitle={resumeTitle} />
       <Layout>
         <Information information={information} />
-        <WorkExperience workExperience={workExperience} />
+        {/* <WorkExperience workExperience={workExperience} /> */}
         <Project project={project} />
         <Activity activity={activity} />
         <Education education={education} />
@@ -56,14 +56,14 @@ export const getStaticProps = async () => {
     item: await getMd({ section: "information", item: { ...objectData.information } }),
   });
 
-  const workExperienceWithData = objectData.workExperience.map(
-    async (item: WorkExperienceProps) => {
-      return getImgSrc({
-        section: "workExperience",
-        item: await getMd({ section: "workExperience", item }),
-      });
-    },
-  );
+  // const workExperienceWithData = objectData.workExperience.map(
+  //   async (item: WorkExperienceProps) => {
+  //     return getImgSrc({
+  //       section: "workExperience",
+  //       item: await getMd({ section: "workExperience", item }),
+  //     });
+  //   },
+  // );
 
   const projectWithData = objectData.project.map(async (item: ProjectProps) => {
     return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
@@ -73,7 +73,7 @@ export const getStaticProps = async () => {
     props: {
       ...objectData,
       information: await informationWithData,
-      workExperience: await Promise.all(workExperienceWithData),
+      // workExperience: await Promise.all(workExperienceWithData),
       project: await Promise.all(projectWithData),
     },
   };
