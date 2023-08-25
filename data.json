@@ -22,7 +22,7 @@
       "repoUrl": "https://github.com/seonggg/Giftimoa",
       "isTeam": true,
       "period": ["2021. 07", "2021. 08"],
-      "stack": ["Java", "AndroidStudio", "SQLite"]
+      "stack": ["Kotlin", "AndroidStudio", "SQLite"]
     },
     {
       "id": 1,
@@ -31,7 +31,7 @@
       "webUrl": "https://youtu.be/uCOu1z769p4",
       "repoUrl": "https://github.com/seonggg/Empathy-of-aday",
       "isTeam": true,
-      "period": ["2022. 05", "2023. 10"],
+      "period": ["2022. 05", "2023. 11"],
       "stack": ["Java", "Python", "AndroidStudio", "Django", "Firebase"]
     },
     {
@@ -41,12 +41,12 @@
       "repoUrl": "https://github.com/qwerty0911/billi-rantal",
       "isTeam": true,
       "period": ["2023. 04", "2023. 05"],
-      "stack": ["Java", "JavaScript", "HTML/CSS", "Oracle", "Amazon S3"]
+      "stack": ["Spring", "Java", "JavaScript", "HTML/CSS", "Oracle", "Amazon S3"]
     },
     {
       "id": 3,
       "name": "HOW's",
-      "description": "청년을 타겟으로 한 LH 임대 주택과 여신 연계 플랫폼 구축",
+      "description": "청년을 타겟으로 한 LH 임대 주택과 여신 연계 플랫폼",
       "webUrl": "https://youtu.be/JuqZeyRd1kE",
       "repoUrl": "https://github.com/TYD-ShinHanDS-Third/FrontEnd",
       "isTeam": true,
@@ -57,6 +57,7 @@
       "id": 4,
       "name": "SiCLOUD",
       "description": "기존의 WMS 기능에 마케팅솔루션과 매칭서비스를 추가한 물류 클라우드 시스템 프로젝트",
+      "webUrl": "https://youtu.be/J7EfXTPY0vQ",
       "repoUrl": "https://github.com/Sun-in-Cloud/SI-Cloud-Front-end",
       "isTeam": true,
       "period": ["2023. 07", "2023. 08"],
@@ -103,6 +104,13 @@
       "date": "2021.08.10",
       "organizer": "서울여자대학교",
       "description": "안드로이드 앱 개발 해커톤-GIFTIMOA"
+    },
+    {
+      "id": 1,
+      "name": "[신한DS]금융SW 아카데미 프로젝트 발표회 입상",
+      "date": "2023.08.17",
+      "organizer": "대한상공회의소 서울기술교육센터장",
+      "description": "웹 개발 해커톤-SiCLOUD"
     }
   ]
 }
